@@ -1,6 +1,6 @@
 {
   "name": "mocha-mix-jsdom",
-  "version": "0.0.0-rc1",
+  "version": "0.0.1-alpha.1",
   "description": "mocha-mix mocha test jsdom plugin",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,9 @@
     "jsdom",
     "plugin"
   ],
+  "engines": {
+    "node":">= 4.0"
+  },
   "author": "myungsunrex@gmail.com",
   "license": "MIT",
   "dependencies": {
