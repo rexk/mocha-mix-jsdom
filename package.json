@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com-rexk:rexk/mocha-mix-jsdom.git"
+    "url": "https://github.com/rexk/mocha-mix-jsdom"
   },
   "keywords": [
     "mocha-mix",
@@ -18,7 +18,8 @@
     "plugin"
   ],
   "engines": {
-    "node":">= 4.0"
+    "node":">= 4.0",
+    "npm": ">= 2.0"
   },
   "author": "myungsunrex@gmail.com",
   "license": "MIT",
