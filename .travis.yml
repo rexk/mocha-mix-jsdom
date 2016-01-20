@@ -1,12 +1,14 @@
 language: node_js
 node_js:
-- '4.1'
-- '4.0'
+  - '4.1'
+  - '4.0'
 addons:
   code_climate:
     repo_token: d5ecf7e1cbdc5743de2316a68c72f7dec90a7f0de35c4f953fdf67ce8b237db7
+after_success:
+  - npm install codeclimate-test-reporter
 after_script:
-- codeclimate-test-reporter < coverage/lcov.info
+  - codeclimate-test-reporter < coverage/lcov.info
 deploy:
   provider: npm
   email: myungsunrex@gmail.com
