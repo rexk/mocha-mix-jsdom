@@ -1,1 +1,4 @@
 lib/__tests__
+.eslintrc
+.babelrc
+.travis.yml
