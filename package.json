@@ -1,6 +1,6 @@
 {
   "name": "mocha-mix-jsdom",
-  "version": "0.0.1-alpha.4",
+  "version": "0.0.1",
   "description": "mocha-mix mocha test jsdom plugin",
   "main": "lib/index.js",
   "scripts": {

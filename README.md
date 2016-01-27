@@ -13,4 +13,8 @@ var MochaMix = require('mocha-mix');
 var JsdomPlugin = require('mocha-mix-jsom');
 
 MochaMix.use(JsdomPlugin);
+
+// or
+
+JsdomPlugin();
 ```
